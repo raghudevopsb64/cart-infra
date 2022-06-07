@@ -12,3 +12,5 @@ variable "FAMILY" {}
 
 variable "EC2_NODE_TYPE" {}
 variable "PORT" {}
+variable "ONDEMAND_INSTANCE_COUNT" {}
+variable "SPOT_INSTANCE_COUNT" {}

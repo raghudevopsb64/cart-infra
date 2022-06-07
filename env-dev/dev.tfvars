@@ -8,5 +8,7 @@ NODE_TYPE      = "cache.t3.micro"
 NODE_COUNT     = 1
 FAMILY         = "redis6.x"
 
-EC2_NODE_TYPE = "t3.micro"
-PORT          = 8080
+EC2_NODE_TYPE           = "t3.micro"
+PORT                    = 8080
+ONDEMAND_INSTANCE_COUNT = 1
+SPOT_INSTANCE_COUNT     = 1
