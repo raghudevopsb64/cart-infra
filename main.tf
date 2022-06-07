@@ -30,4 +30,7 @@ module "app" {
   VPC_ID                  = module.vpc.VPC_ID
   VPC_CIDR                = module.vpc.VPC_CIDR
   SUBNET_IDS              = module.vpc.SUBNET_IDS
+  COMPONENT               = var.COMPONENT
+  ENV                     = var.ENV
+  NODE_TYPE               = var.EC2_NODE_TYPE
 }
