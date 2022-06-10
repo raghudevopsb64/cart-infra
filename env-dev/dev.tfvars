@@ -10,5 +10,5 @@ FAMILY         = "redis6.x"
 
 EC2_NODE_TYPE           = "t3.micro"
 PORT                    = 8080
-ONDEMAND_INSTANCE_COUNT = 1
+ONDEMAND_INSTANCE_COUNT = 0
 SPOT_INSTANCE_COUNT     = 1
