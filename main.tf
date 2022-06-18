@@ -36,6 +36,6 @@ module "app" {
   NODE_TYPE               = var.EC2_NODE_TYPE
   PORT                    = var.PORT
   WORKSTATION_IP          = var.WORKSTATION_IP
-  VPC_ACCESS_TO_ALB       = [module.vpc.VPC_CIDR, "10.10.5.0/24"]
+  VPC_ACCESS_TO_ALB       = [module.vpc.VPC_CIDR, "10.10.5.0/24", "${module.vpc.NGW_PRIVATE_IP}/32"]
   PRIVATE_HOSTED_ZONE_ID  = module.vpc.PRIVATE_HOSTED_ZONE_ID
 }
