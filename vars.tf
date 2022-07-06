@@ -17,3 +17,7 @@ variable "PORT" {}
 variable "WORKSTATION_IP" {}
 variable "PROMETHEUS_IP" {}
 variable "APP_VERSION" {}
+
+variable "CAPACITY_NODES" {}
+variable "MIN_NODES" {}
+variable "MAX_NODES" {}
